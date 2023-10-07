@@ -9,10 +9,9 @@ jobs:
   terraform:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: actions/ckeckout@v3
-      - name: Setup terraform
-        uses: hashicorp/setup-terraform@v2
+      
+      - uses: actions/ckeckout@v3
+      - uses: hashicorp/setup-terraform@v2
         with:
           terraform_version: 1.1.9
       - name: init
