@@ -7,7 +7,7 @@ env:
 
 jobs:
   terraform:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: checkout
         uses: actions/ckeckout@v3
