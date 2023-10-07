@@ -1,3 +1,6 @@
+# To call a module from repo to another repo, we have to use our ssh key, using the deploy keys (public key) on settings on the repo
+# we're taking the module from
+# In the repo that has the workflow, set the private key. in settings, click on secrets and variables, the action
 name: terraform
 
 on: [push]
